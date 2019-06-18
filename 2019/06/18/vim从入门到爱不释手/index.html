@@ -16,7 +16,7 @@
 <meta property="og:description" content="vim使用使用vim新建/打开一个文件在终端使用‘vim + 文件名’命令，当文件存在时使用vim打开，文件不存在情况下首先新建该文件，然后用vim打开。 光标移动单步移动   按键 说明     h ←   j ↓   k ↑   l →    基于单词的移动   按键 说明     b（back word） 移动到上一个单词开头   w（word） 移动到下一个单词开头    行移动   按键">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://yoursite.com/images/og_image.png">
-<meta property="og:updated_time" content="2019-06-18T15:28:45.224Z">
+<meta property="og:updated_time" content="2019-06-18T15:36:11.743Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="vim从入门到爱不释手">
 <meta name="twitter:description" content="vim使用使用vim新建/打开一个文件在终端使用‘vim + 文件名’命令，当文件存在时使用vim打开，文件不存在情况下首先新建该文件，然后用vim打开。 光标移动单步移动   按键 说明     h ←   j ↓   k ↑   l →    基于单词的移动   按键 说明     b（back word） 移动到上一个单词开头   w（word） 移动到下一个单词开头    行移动   按键">
@@ -151,7 +151,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    4 minutes read (About 547 words)
+                    4 minutes read (About 552 words)
                 </span>
                 
                 
@@ -299,9 +299,31 @@
 <h2 id="删"><a href="#删" class="headerlink" title="删"></a>删</h2><p>删除操作，主要有d（delete），dw（delete word），dd（删除一行），x（删除一个字符）。</p>
 <ul>
 <li>dw 分为diw（delete inner word）和daw（delete arund word）两个命令的区别在于daw会删除单词后面连带的空格，而diw只会删除这个单词。</li>
+<li>u（undo）撤销操作。</li>
 </ul>
-<h2 id="改"><a href="#改" class="headerlink" title="改"></a>改</h2><p>修改操作，主要有c（change），ciw（change inner word）<br>按键 | 说明<br>– | –<br>ciw | 删除单词并进入插入模式<br>ct “字符” | 删除当前光标到字符之间的所有，并进入插入模式<br>ci” | 删除”中的文本</p>
-<p>u（undo）</p>
+<h2 id="改"><a href="#改" class="headerlink" title="改"></a>改</h2><p>修改操作，主要有c（change），ciw（change inner word）</p>
+<table>
+<thead>
+<tr>
+<th>按键</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ciw</td>
+<td>删除单词并进入插入模式</td>
+</tr>
+<tr>
+<td>ct “字符”</td>
+<td>删除当前光标到字符之间的所有，并进入插入模式</td>
+</tr>
+<tr>
+<td>ci”</td>
+<td>删除”中的文本</td>
+</tr>
+</tbody>
+</table>
 <h2 id="查"><a href="#查" class="headerlink" title="查"></a>查</h2><table>
 <thead>
 <tr>
@@ -350,7 +372,7 @@
 
 <div class="card">
     <div class="card-content">
-        <h3 class="menu-label has-text-centered">Suka dengan artikel ini? Bantu penulis dengan donasi melalui</h3>
+        <h3 class="menu-label has-text-centered">Like this article? Support the author with</h3>
         <div class="buttons is-centered">
             
                 
@@ -425,7 +447,7 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Article
+                        Entrada
                     </p>
                     <p class="title has-text-weight-normal">
                         1
@@ -435,7 +457,7 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Catégories
+                        Categorias
                     </p>
                     <p class="title has-text-weight-normal">
                         0
@@ -445,7 +467,7 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Tag
+                        Etiqueta
                     </p>
                     <p class="title has-text-weight-normal">
                         1
@@ -455,7 +477,7 @@
         </nav>
         <div class="level">
             <a class="level-item button is-link is-rounded" href="https://github.com/ppoffice" target="_blank">
-                SUIVRE</a>
+                SEGUIR</a>
         </div>
         
         
@@ -480,7 +502,7 @@
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
-            Liens
+            Links
         </h3>
         <ul class="menu-list">
         
@@ -518,7 +540,7 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Catégories
+                Categorias
             </h3>
             <ul class="menu-list">
             
@@ -531,7 +553,7 @@
 <div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
-            Nuage de tags
+            Nube de etiquetas
         </h3>
         <a href="/tags/vim-Linux/" style="font-size: 10px;">vim Linux</a>
     </div>
@@ -545,7 +567,7 @@
 <div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
-            Récents
+            Recientes
         </h3>
         
         <article class="media">
@@ -575,7 +597,7 @@
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
-            Archives
+            Archivos
         </h3>
         <ul class="menu-list">
         
@@ -599,7 +621,7 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Tags
+                Etiquetas
             </h3>
             <div class="field is-grouped is-grouped-multiline">
                 
@@ -630,7 +652,7 @@
 <div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
-            Récents
+            Recientes
         </h3>
         
         <article class="media">
@@ -660,7 +682,7 @@
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
-            Archives
+            Archivos
         </h3>
         <ul class="menu-list">
         
@@ -684,7 +706,7 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Tags
+                Etiquetas
             </h3>
             <div class="field is-grouped is-grouped-multiline">
                 
@@ -824,7 +846,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     
 
-<a id="back-to-top" title="Kembali ke atas" href="javascript:;">
+<a id="back-to-top" title="Back to Top" href="javascript:;">
     <i class="fas fa-chevron-up"></i>
 </a>
 <script src="/js/back-to-top.js" defer></script>
@@ -870,10 +892,10 @@ document.addEventListener('DOMContentLoaded', function () {
     (function (window) {
         var INSIGHT_CONFIG = {
             TRANSLATION: {
-                POSTS: 'Articles',
+                POSTS: 'Entradas',
                 PAGES: 'Pages',
-                CATEGORIES: 'Catégories',
-                TAGS: 'Tags',
+                CATEGORIES: 'Categorias',
+                TAGS: 'Etiquetas',
                 UNTITLED: '(Untitled)',
             },
             CONTENT_URL: '/content.json',
